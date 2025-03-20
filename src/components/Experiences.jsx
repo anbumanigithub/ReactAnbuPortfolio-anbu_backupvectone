@@ -173,7 +173,7 @@
 //                       </div>
 //                     )}
 
-//                     {/* {index < experiences.length - 1 && (
+//                     {/* {index < experinces.length - 1 && (
 //                       <div className="absolute left-5 top-full w-1 h-12 bg-blue-500"></div>
 //                     )} */}
 //                   </div>
@@ -188,13 +188,6 @@
 // };
 
 // export default Experiences;
-
-
-
-
-
-
-
 
 
 
@@ -360,4 +353,14 @@ const Experiences = () => {
 };
 
 export default Experiences;
+
+
+
+
+
+
+
+
+
+
 
