@@ -36,7 +36,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <img src={CricketImage} alt="Cricket" className="w-full h-auto rounded-lg object-cover" />
               <div className="bg-gray-900 bg-opacity-40 p-6 sm:p-8 rounded-xl text-white border border-gray-600 shadow-2xl">
-                <h3 className="text-4xl font-bold mb-6 text-yellow-400">🏏 Achievements</h3>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-yellow-400">🏏 Achievements</h3>
                 <p className="text-lg text-gray-200">
                   🥇 <span className="font-semibold">First Prize</span> in Indoor College Level Cricket.<br />
                   🏆 <span className="font-semibold">Man of the Match:</span> Took <span className="text-red-400 font-semibold">three wickets</span> and scored <span className="text-blue-400 font-semibold">40 runs</span>.
@@ -59,7 +59,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <img src={VolleyballImage} alt="Volleyball" className="w-full h-auto rounded-lg object-cover" />
               <div className="bg-gray-900 bg-opacity-40 p-6 sm:p-8 rounded-xl text-white border border-gray-600 shadow-2xl">
-                <h3 className="text-4xl font-bold mb-6 text-yellow-400">🏆 Achievements</h3>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-yellow-400">🏆 Achievements</h3>
                 <p className="text-lg">
                   💡 <span className="font-semibold">First Prize</span> in College-Level Volleyball.<br />
                   🏆 <span className="font-semibold">Captain</span> & Smasher of the Team.
@@ -82,7 +82,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <img src={throwballImage} alt="Throwball" className="w-full h-auto rounded-lg object-cover" />
               <div className="bg-gray-900 bg-opacity-40 p-6 sm:p-8 rounded-xl text-white border border-gray-600 shadow-2xl">
-                <h3 className="text-4xl font-bold mb-6 text-yellow-400">🏆 Achievements</h3>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-yellow-400">🏆 Achievements</h3>
                 <p className="text-lg">
                   💡 <span className="font-semibold">First Prize</span> in College-Level Throwball.<br />
                   🏆 <span className="font-semibold">Captain</span> & Lead Attacker.<br />
@@ -106,7 +106,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
               <img src={runningImage} alt="Running" className="w-full h-auto rounded-lg object-cover" />
               <div className="bg-gray-900 bg-opacity-40 p-6 sm:p-8 rounded-xl text-white border border-gray-600 shadow-2xl">
-                <h3 className="text-4xl font-bold mb-6 text-yellow-400">🏆 Achievements</h3>
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-yellow-400">🏆 Achievements</h3>
                 <p className="text-lg">
                   💡 <span className="font-semibold">Winner</span> of Running.<br />
                   🏆 Running is my passion and a vital part of my daily routine.
