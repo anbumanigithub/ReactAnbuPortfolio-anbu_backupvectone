@@ -198,6 +198,8 @@
 
 
 
+
+
 import React from "react";
 import vectoneimages from "../assets/experience/vectoneteam1.jpg";
 import vectoneimages1 from "../assets/experience/teamouting2.JPG";
@@ -303,7 +305,7 @@ const Experiences = () => {
                     <div key={i} className="rounded-lg shadow-md">
                       <img
                         src={photo}
-                        alt={`Experience ${exp.company} photo ${i + 1}`}
+                        alt="experiences"
                         className="w-full h-40 md:h-48 object-cover rounded-lg"
                       />
                     </div>
@@ -327,7 +329,7 @@ const Experiences = () => {
                         >
                           <img
                             src={src}
-                            alt={title}
+                            alt="experiences"
                             className="rounded-md duration-200 w-full h-40 object-cover"
                           />
                           <p className="text-center mt-4 text-white">{title}</p>
