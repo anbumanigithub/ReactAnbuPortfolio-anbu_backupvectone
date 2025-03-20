@@ -36,7 +36,7 @@ const socialLinks = [
         <FaLinkedin size={50} />
       </>
     ),
-    href: "https://www.linkedin.com/in/anbumani-c-5b935719a/",
+    href: "https://www.linkedin.com/in/anbumanimernstackdeveloper/",
   },
   {
     id: 2,
