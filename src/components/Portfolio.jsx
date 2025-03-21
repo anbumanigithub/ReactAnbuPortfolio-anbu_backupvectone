@@ -75,9 +75,9 @@ const Portfolio = () => {
     window.open(demoLink, "_blank");
   };
 
-  const redirectToCode = (codeLink) => {
-    window.open(codeLink, "_blank");
-  };
+  // const redirectToCode = (codeLink) => {
+  //   window.open(codeLink, "_blank");
+  // };
 
   return (
     <div
@@ -106,17 +106,17 @@ const Portfolio = () => {
               <p className="text-center mt-4">{title}</p>
               <div className="flex justify-center items-center">
                 <button
-                  className="w-1/2 px-6 py-4  duration-200 hover:scale-105"
+                   className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition"
                   onClick={() => redirectToDemo(demo)}
                 >
                   Demo
                 </button>
-                <button
+                {/* <button
                   className="w-1/2 px-6 py-4  duration-200 hover:scale-105"
                   onClick={() => redirectToCode(code)}
                 >
                   Code
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

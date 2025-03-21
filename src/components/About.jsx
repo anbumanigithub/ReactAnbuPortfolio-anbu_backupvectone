@@ -95,11 +95,11 @@ const About = () => {
           {/* 10th Standard */}
           <div className="max-w-5xl mx-auto p-4 sm:p-6 space-y-12 sm:space-y-16">
             <div className="bg-gray-900 bg-opacity-30 p-6 sm:p-8 rounded-xl shadow-2xl border border-gray-700">
-              <h3 className="text-4xl font-bold text-cyan-400 mb-6">🎓 Standard</h3>
+              <h3 className="text-4xl font-bold text-cyan-400 mb-6">🎓 Education</h3>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-lg">
                 <p className="text-gray-200">📖 10th Standard (2015)</p>
                 <p className="text-gray-200">🏆 Marks: <span className="text-yellow-400 font-semibold">412/500</span></p>
-                <p >📊 Percentage: <span className="text-green-400 font-semibold">81%</span></p>
+                <p className="text-gray-200" >📊 Percentage: <span className="text-green-400 font-semibold">81%</span></p>
               </div>
             </div>
 
